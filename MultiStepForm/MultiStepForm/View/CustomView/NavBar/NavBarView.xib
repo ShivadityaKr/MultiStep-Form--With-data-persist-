@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NavBarView" customModule="MultiStepForm" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="vLb-WR-3PL" id="Rfh-IF-ouQ"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="fBE-Sv-1kg"/>
+                <outlet property="crossButton" destination="YUm-wa-5yK" id="3Wc-8L-VvM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="67"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLb-WR-3PL">
+                    <rect key="frame" x="20" y="8" width="51" height="51"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="51" id="AZS-Ln-ftD"/>
+                        <constraint firstAttribute="width" constant="51" id="NF1-MI-PNs"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="chevron.backward.2" catalog="system"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUm-wa-5yK">
+                    <rect key="frame" x="307" y="8" width="51" height="51"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="51" id="Pt0-qh-s84"/>
+                        <constraint firstAttribute="height" constant="51" id="oYg-WQ-qjF"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="xmark" catalog="system"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="vLb-WR-3PL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="5hd-b0-rwV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="YUm-wa-5yK" secondAttribute="trailing" constant="20" id="VOB-Kg-Ker"/>
+                <constraint firstItem="YUm-wa-5yK" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="XW1-qJ-1so"/>
+                <constraint firstItem="vLb-WR-3PL" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="v2G-Bs-vSA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="364" y="122"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.backward.2" catalog="system" width="128" height="105"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+    </resources>
+</document>

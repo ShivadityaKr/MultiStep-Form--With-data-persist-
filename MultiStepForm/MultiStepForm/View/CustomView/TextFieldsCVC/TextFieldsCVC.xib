@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TextFieldsCVC" id="gTV-IL-0wX" customClass="TextFieldsCVC" customModule="MultiStepForm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="384" height="494"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="384" height="494"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ocF-TV-hzb">
+                        <rect key="frame" x="0.0" y="0.0" width="384" height="494"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Znc-Tv-psx">
+                                <rect key="frame" x="40" y="50" width="304" height="21"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="OdK-hK-OSg">
+                                <rect key="frame" x="30" y="150.5" width="324" height="193"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vfy-tL-HQT">
+                                        <rect key="frame" x="0.0" y="0.0" width="324" height="51"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yKF-fM-msT">
+                                        <rect key="frame" x="0.0" y="71" width="324" height="51"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjQ-iL-F5S">
+                                        <rect key="frame" x="0.0" y="142" width="324" height="51"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="51" id="hNo-M6-Ncp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OdK-hK-OSg" firstAttribute="centerY" secondItem="ocF-TV-hzb" secondAttribute="centerY" id="GPY-9e-KKL"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OdK-hK-OSg" secondAttribute="bottom" constant="20" id="I1V-Vx-Hml"/>
+                            <constraint firstItem="OdK-hK-OSg" firstAttribute="leading" secondItem="ocF-TV-hzb" secondAttribute="leading" constant="30" id="IDh-FA-dgd"/>
+                            <constraint firstItem="Znc-Tv-psx" firstAttribute="leading" secondItem="ocF-TV-hzb" secondAttribute="leading" constant="40" id="W95-OE-o0p"/>
+                            <constraint firstItem="Znc-Tv-psx" firstAttribute="top" secondItem="ocF-TV-hzb" secondAttribute="top" constant="50" id="iGZ-yD-M0u"/>
+                            <constraint firstAttribute="trailing" secondItem="OdK-hK-OSg" secondAttribute="trailing" constant="30" id="kDK-bq-gaU"/>
+                            <constraint firstItem="OdK-hK-OSg" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Znc-Tv-psx" secondAttribute="bottom" constant="40" id="nxf-PD-N8G"/>
+                            <constraint firstAttribute="trailing" secondItem="Znc-Tv-psx" secondAttribute="trailing" constant="40" id="szm-IW-JSD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ocF-TV-hzb" secondAttribute="bottom" id="CgM-Z1-tFh"/>
+                <constraint firstItem="ocF-TV-hzb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="JeH-6h-Aep"/>
+                <constraint firstAttribute="trailing" secondItem="ocF-TV-hzb" secondAttribute="trailing" id="cUw-Za-gLL"/>
+                <constraint firstItem="ocF-TV-hzb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="myJ-V3-uPb"/>
+            </constraints>
+            <size key="customSize" width="384" height="494"/>
+            <connections>
+                <outlet property="firstTF" destination="Vfy-tL-HQT" id="TZE-gv-c0C"/>
+                <outlet property="nextButton" destination="GjQ-iL-F5S" id="Ge6-Gm-EQh"/>
+                <outlet property="secondTF" destination="yKF-fM-msT" id="DRV-zl-gnT"/>
+                <outlet property="titleLabel" destination="Znc-Tv-psx" id="OuW-Id-Tha"/>
+            </connections>
+            <point key="canvasLocation" x="115.94202898550725" y="94.419642857142847"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

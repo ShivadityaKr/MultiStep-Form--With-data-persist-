@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HomeVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="HomeVC" customModule="MultiStepForm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oOH-ed-FJL" customClass="NavBarView" customModule="MultiStepForm" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="A7Z-fB-xns"/>
+                                </constraints>
+                            </view>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Y4e-Xv-tVr">
+                                <rect key="frame" x="40" y="134" width="334" height="4"/>
+                                <color key="tintColor" systemColor="systemTealColor"/>
+                            </progressView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="nBX-NX-dfF">
+                                <rect key="frame" x="0.0" y="158" width="414" height="664"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="AVL-2O-OBJ">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nBX-NX-dfF" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="1qW-Zj-7AM"/>
+                            <constraint firstItem="Y4e-Xv-tVr" firstAttribute="top" secondItem="oOH-ed-FJL" secondAttribute="bottom" constant="40" id="4j8-dF-eSC"/>
+                            <constraint firstItem="oOH-ed-FJL" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="CfT-84-c99"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="oOH-ed-FJL" secondAttribute="trailing" id="OAo-Xr-4Tq"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="nBX-NX-dfF" secondAttribute="trailing" id="aTG-hy-Vp9"/>
+                            <constraint firstItem="nBX-NX-dfF" firstAttribute="top" secondItem="Y4e-Xv-tVr" secondAttribute="bottom" constant="20" id="f5Z-n9-SKP"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Y4e-Xv-tVr" secondAttribute="trailing" constant="40" id="fwx-HD-80l"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="nBX-NX-dfF" secondAttribute="bottom" constant="40" id="lqa-9n-ds0"/>
+                            <constraint firstItem="Y4e-Xv-tVr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="ycI-UT-j1R"/>
+                            <constraint firstItem="oOH-ed-FJL" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="zo0-kz-3q4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="nBX-NX-dfF" id="E8h-hx-kIX"/>
+                        <outlet property="navBarView" destination="oOH-ed-FJL" id="4Qv-RU-B0e"/>
+                        <outlet property="progressView" destination="Y4e-Xv-tVr" id="9gn-NE-P6R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-49" y="5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

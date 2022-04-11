@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A2267DC2801D66C00A577D7 /* UIViewController+UINavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2267DB2801D66C00A577D7 /* UIViewController+UINavigation.swift */; };
+		7A5176852802D02900D049E4 /* TextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5176842802D02900D049E4 /* TextFieldModel.swift */; };
+		7A5176882802F13F00D049E4 /* AppAlert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5176872802F13F00D049E4 /* AppAlert.storyboard */; };
+		7A51768A2802F15600D049E4 /* AppAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5176892802F15600D049E4 /* AppAlertVC.swift */; };
+		7AAEFED72801EFE100BD923A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAEFED62801EFE100BD923A /* Home.storyboard */; };
+		7AAEFEDA2801F2E300BD923A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAEFED92801F2E300BD923A /* HomeVC.swift */; };
+		7AAEFEE22801F7AA00BD923A /* TextFieldsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAEFEE02801F7AA00BD923A /* TextFieldsCVC.swift */; };
+		7AAEFEE32801F7AA00BD923A /* TextFieldsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAEFEE12801F7AA00BD923A /* TextFieldsCVC.xib */; };
+		7AAEFEE62801F7BF00BD923A /* ButtonsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAEFEE42801F7BF00BD923A /* ButtonsCVC.swift */; };
+		7AAEFEE72801F7BF00BD923A /* ButtonsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAEFEE52801F7BF00BD923A /* ButtonsCVC.xib */; };
+		7AAEFEE9280205ED00BD923A /* HomeUIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAEFEE8280205ED00BD923A /* HomeUIVC.swift */; };
+		7AAEFEEF2802263100BD923A /* String+TextFieldValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAEFEEE2802263100BD923A /* String+TextFieldValidation.swift */; };
+		7AB4C28B280194E6002B6494 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4C28A280194E6002B6494 /* AppDelegate.swift */; };
+		7AB4C294280194E7002B6494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB4C293280194E7002B6494 /* Assets.xcassets */; };
+		7AB4C297280194E7002B6494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB4C295280194E7002B6494 /* LaunchScreen.storyboard */; };
+		7AB4C2B7280196AF002B6494 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4C2B6280196AF002B6494 /* SplashVC.swift */; };
+		7AB4C2BC28019757002B6494 /* UIStoryboard+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4C2BB28019757002B6494 /* UIStoryboard+Navigation.swift */; };
+		7AB4C2BE2801982B002B6494 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB4C2BD2801982B002B6494 /* Splash.storyboard */; };
+		7AB4C2C428019B89002B6494 /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4C2C328019B89002B6494 /* NavBarView.swift */; };
+		7AB4C2C628019B95002B6494 /* NavBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AB4C2C528019B95002B6494 /* NavBarView.xib */; };
+		B6CA24C8D8F3BD64075662D9 /* Pods_MultiStepForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863DBC52C65D00B10BD4FA95 /* Pods_MultiStepForm.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76E1D8D0540DE0E13CCA0887 /* Pods-MultiStepForm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiStepForm.release.xcconfig"; path = "Target Support Files/Pods-MultiStepForm/Pods-MultiStepForm.release.xcconfig"; sourceTree = "<group>"; };
+		7A2267DB2801D66C00A577D7 /* UIViewController+UINavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+UINavigation.swift"; sourceTree = "<group>"; };
+		7A5176842802D02900D049E4 /* TextFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModel.swift; sourceTree = "<group>"; };
+		7A5176872802F13F00D049E4 /* AppAlert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppAlert.storyboard; sourceTree = "<group>"; };
+		7A5176892802F15600D049E4 /* AppAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlertVC.swift; sourceTree = "<group>"; };
+		7AAEFED62801EFE100BD923A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		7AAEFED92801F2E300BD923A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		7AAEFEE02801F7AA00BD923A /* TextFieldsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsCVC.swift; sourceTree = "<group>"; };
+		7AAEFEE12801F7AA00BD923A /* TextFieldsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldsCVC.xib; sourceTree = "<group>"; };
+		7AAEFEE42801F7BF00BD923A /* ButtonsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsCVC.swift; sourceTree = "<group>"; };
+		7AAEFEE52801F7BF00BD923A /* ButtonsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonsCVC.xib; sourceTree = "<group>"; };
+		7AAEFEE8280205ED00BD923A /* HomeUIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUIVC.swift; sourceTree = "<group>"; };
+		7AAEFEEE2802263100BD923A /* String+TextFieldValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+TextFieldValidation.swift"; sourceTree = "<group>"; };
+		7AB4C287280194E6002B6494 /* MultiStepForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiStepForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB4C28A280194E6002B6494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AB4C293280194E7002B6494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AB4C296280194E7002B6494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AB4C298280194E7002B6494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB4C2B6280196AF002B6494 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		7AB4C2BB28019757002B6494 /* UIStoryboard+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Navigation.swift"; sourceTree = "<group>"; };
+		7AB4C2BD2801982B002B6494 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		7AB4C2C328019B89002B6494 /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		7AB4C2C528019B95002B6494 /* NavBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavBarView.xib; sourceTree = "<group>"; };
+		863DBC52C65D00B10BD4FA95 /* Pods_MultiStepForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiStepForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84EDC895F7FCA2955195B8F /* Pods-MultiStepForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiStepForm.debug.xcconfig"; path = "Target Support Files/Pods-MultiStepForm/Pods-MultiStepForm.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AB4C284280194E6002B6494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CA24C8D8F3BD64075662D9 /* Pods_MultiStepForm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E1FD24A7182D3A4A5078FCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				863DBC52C65D00B10BD4FA95 /* Pods_MultiStepForm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A2267D72801D16000A577D7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7AAEFED92801F2E300BD923A /* HomeVC.swift */,
+				7AAEFEE8280205ED00BD923A /* HomeUIVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A2267D82801D17500A577D7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7AAEFED62801EFE100BD923A /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A5176862802F12100D049E4 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				7A5176872802F13F00D049E4 /* AppAlert.storyboard */,
+				7A5176892802F15600D049E4 /* AppAlertVC.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		7AAEFEDB2801F75200BD923A /* ButtonsCVC */ = {
+			isa = PBXGroup;
+			children = (
+				7AAEFEE42801F7BF00BD923A /* ButtonsCVC.swift */,
+				7AAEFEE52801F7BF00BD923A /* ButtonsCVC.xib */,
+			);
+			path = ButtonsCVC;
+			sourceTree = "<group>";
+		};
+		7AAEFEDC2801F76500BD923A /* TextFieldsCVC */ = {
+			isa = PBXGroup;
+			children = (
+				7AAEFEE02801F7AA00BD923A /* TextFieldsCVC.swift */,
+				7AAEFEE12801F7AA00BD923A /* TextFieldsCVC.xib */,
+				7A5176842802D02900D049E4 /* TextFieldModel.swift */,
+			);
+			path = TextFieldsCVC;
+			sourceTree = "<group>";
+		};
+		7AB4C27E280194E6002B6494 = {
+			isa = PBXGroup;
+			children = (
+				7AB4C289280194E6002B6494 /* MultiStepForm */,
+				7AB4C288280194E6002B6494 /* Products */,
+				BEE31BDB64A0BC869FC0012F /* Pods */,
+				6E1FD24A7182D3A4A5078FCC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7AB4C288280194E6002B6494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AB4C287280194E6002B6494 /* MultiStepForm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AB4C289280194E6002B6494 /* MultiStepForm */ = {
+			isa = PBXGroup;
+			children = (
+				7AB4C2B92801971E002B6494 /* Extension */,
+				7AB4C2B228019649002B6494 /* AppLifeCycle */,
+				7AB4C2BA2801972A002B6494 /* Networking */,
+				7AB4C29F2801958D002B6494 /* View */,
+				7AB4C2B8280196BF002B6494 /* Resources */,
+			);
+			path = MultiStepForm;
+			sourceTree = "<group>";
+		};
+		7AB4C29F2801958D002B6494 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AB4C2C128019B58002B6494 /* CustomView */,
+				7AB4C2A2280195BB002B6494 /* Model */,
+				7AB4C2A1280195AF002B6494 /* Storyboard */,
+				7AB4C2A0280195A4002B6494 /* ViewContoller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AB4C2A0280195A4002B6494 /* ViewContoller */ = {
+			isa = PBXGroup;
+			children = (
+				7A2267D72801D16000A577D7 /* Home */,
+				7AB4C2B52801969A002B6494 /* Splash */,
+			);
+			path = ViewContoller;
+			sourceTree = "<group>";
+		};
+		7AB4C2A1280195AF002B6494 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7A2267D82801D17500A577D7 /* Home */,
+				7AB4C2B428019693002B6494 /* Splash */,
+				7AB4C2B328019676002B6494 /* LaunchScreen */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		7AB4C2A2280195BB002B6494 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AB4C2B228019649002B6494 /* AppLifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				7AB4C28A280194E6002B6494 /* AppDelegate.swift */,
+			);
+			path = AppLifeCycle;
+			sourceTree = "<group>";
+		};
+		7AB4C2B328019676002B6494 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7AB4C295280194E7002B6494 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		7AB4C2B428019693002B6494 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				7AB4C2BD2801982B002B6494 /* Splash.storyboard */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		7AB4C2B52801969A002B6494 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				7AB4C2B6280196AF002B6494 /* SplashVC.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		7AB4C2B8280196BF002B6494 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7AB4C298280194E7002B6494 /* Info.plist */,
+				7AB4C293280194E7002B6494 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7AB4C2B92801971E002B6494 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7AB4C2BB28019757002B6494 /* UIStoryboard+Navigation.swift */,
+				7A2267DB2801D66C00A577D7 /* UIViewController+UINavigation.swift */,
+				7AAEFEEE2802263100BD923A /* String+TextFieldValidation.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7AB4C2BA2801972A002B6494 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7AB4C2C128019B58002B6494 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				7A5176862802F12100D049E4 /* Activity */,
+				7AAEFEDC2801F76500BD923A /* TextFieldsCVC */,
+				7AAEFEDB2801F75200BD923A /* ButtonsCVC */,
+				7AB4C2C228019B61002B6494 /* NavBar */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		7AB4C2C228019B61002B6494 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				7AB4C2C328019B89002B6494 /* NavBarView.swift */,
+				7AB4C2C528019B95002B6494 /* NavBarView.xib */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		BEE31BDB64A0BC869FC0012F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D84EDC895F7FCA2955195B8F /* Pods-MultiStepForm.debug.xcconfig */,
+				76E1D8D0540DE0E13CCA0887 /* Pods-MultiStepForm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AB4C286280194E6002B6494 /* MultiStepForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB4C29B280194E7002B6494 /* Build configuration list for PBXNativeTarget "MultiStepForm" */;
+			buildPhases = (
+				83D19D0F1AB456FBDCB00646 /* [CP] Check Pods Manifest.lock */,
+				7AB4C283280194E6002B6494 /* Sources */,
+				7AB4C284280194E6002B6494 /* Frameworks */,
+				7AB4C285280194E6002B6494 /* Resources */,
+				A27044EEFFC7F6BE5DE1FAE7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiStepForm;
+			productName = MultiStepForm;
+			productReference = 7AB4C287280194E6002B6494 /* MultiStepForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AB4C27F280194E6002B6494 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7AB4C286280194E6002B6494 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7AB4C282280194E6002B6494 /* Build configuration list for PBXProject "MultiStepForm" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AB4C27E280194E6002B6494;
+			productRefGroup = 7AB4C288280194E6002B6494 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AB4C286280194E6002B6494 /* MultiStepForm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AB4C285280194E6002B6494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAEFED72801EFE100BD923A /* Home.storyboard in Resources */,
+				7AB4C2C628019B95002B6494 /* NavBarView.xib in Resources */,
+				7AAEFEE32801F7AA00BD923A /* TextFieldsCVC.xib in Resources */,
+				7AB4C297280194E7002B6494 /* LaunchScreen.storyboard in Resources */,
+				7A5176882802F13F00D049E4 /* AppAlert.storyboard in Resources */,
+				7AB4C294280194E7002B6494 /* Assets.xcassets in Resources */,
+				7AB4C2BE2801982B002B6494 /* Splash.storyboard in Resources */,
+				7AAEFEE72801F7BF00BD923A /* ButtonsCVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83D19D0F1AB456FBDCB00646 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiStepForm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A27044EEFFC7F6BE5DE1FAE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiStepForm/Pods-MultiStepForm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiStepForm/Pods-MultiStepForm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiStepForm/Pods-MultiStepForm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AB4C283280194E6002B6494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAEFEE9280205ED00BD923A /* HomeUIVC.swift in Sources */,
+				7AAEFEDA2801F2E300BD923A /* HomeVC.swift in Sources */,
+				7AAEFEE22801F7AA00BD923A /* TextFieldsCVC.swift in Sources */,
+				7A51768A2802F15600D049E4 /* AppAlertVC.swift in Sources */,
+				7AAEFEE62801F7BF00BD923A /* ButtonsCVC.swift in Sources */,
+				7AB4C2C428019B89002B6494 /* NavBarView.swift in Sources */,
+				7A2267DC2801D66C00A577D7 /* UIViewController+UINavigation.swift in Sources */,
+				7AAEFEEF2802263100BD923A /* String+TextFieldValidation.swift in Sources */,
+				7A5176852802D02900D049E4 /* TextFieldModel.swift in Sources */,
+				7AB4C2BC28019757002B6494 /* UIStoryboard+Navigation.swift in Sources */,
+				7AB4C28B280194E6002B6494 /* AppDelegate.swift in Sources */,
+				7AB4C2B7280196AF002B6494 /* SplashVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AB4C295280194E7002B6494 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AB4C296280194E7002B6494 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AB4C299280194E7002B6494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AB4C29A280194E7002B6494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AB4C29C280194E7002B6494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D84EDC895F7FCA2955195B8F /* Pods-MultiStepForm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BB2J2N75ZB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultiStepForm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiva.MultiStepForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AB4C29D280194E7002B6494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E1D8D0540DE0E13CCA0887 /* Pods-MultiStepForm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BB2J2N75ZB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultiStepForm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiva.MultiStepForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AB4C282280194E6002B6494 /* Build configuration list for PBXProject "MultiStepForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB4C299280194E7002B6494 /* Debug */,
+				7AB4C29A280194E7002B6494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AB4C29B280194E7002B6494 /* Build configuration list for PBXNativeTarget "MultiStepForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB4C29C280194E7002B6494 /* Debug */,
+				7AB4C29D280194E7002B6494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AB4C27F280194E6002B6494 /* Project object */;
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ButtonsCVC" id="gTV-IL-0wX" customClass="ButtonsCVC" customModule="MultiStepForm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="686"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="351" height="686"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e0R-Jf-Pey">
+                        <rect key="frame" x="0.0" y="0.0" width="351" height="686"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5b-aq-UVl">
+                                <rect key="frame" x="40" y="50" width="271" height="21"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="lvG-cU-PvB">
+                                <rect key="frame" x="30" y="246.5" width="291" height="193"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlt-hU-f0S">
+                                        <rect key="frame" x="0.0" y="0.0" width="291" height="51"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="51" id="WuP-PN-ObS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZH-nn-epO">
+                                        <rect key="frame" x="0.0" y="71" width="291" height="51"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hkh-ca-rzR">
+                                        <rect key="frame" x="0.0" y="142" width="291" height="51"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="lvG-cU-PvB" secondAttribute="bottom" constant="20" id="0Z5-xq-Etg"/>
+                            <constraint firstItem="I5b-aq-UVl" firstAttribute="top" secondItem="e0R-Jf-Pey" secondAttribute="top" constant="50" id="BhR-Un-zcN"/>
+                            <constraint firstItem="lvG-cU-PvB" firstAttribute="centerY" secondItem="e0R-Jf-Pey" secondAttribute="centerY" id="Htn-4w-Z5g"/>
+                            <constraint firstItem="I5b-aq-UVl" firstAttribute="leading" secondItem="e0R-Jf-Pey" secondAttribute="leading" constant="40" id="PCW-1t-OcK"/>
+                            <constraint firstAttribute="trailing" secondItem="lvG-cU-PvB" secondAttribute="trailing" constant="30" id="PiP-WG-cFR"/>
+                            <constraint firstItem="lvG-cU-PvB" firstAttribute="top" relation="greaterThanOrEqual" secondItem="I5b-aq-UVl" secondAttribute="bottom" constant="40" id="V2R-sR-LjF"/>
+                            <constraint firstAttribute="trailing" secondItem="I5b-aq-UVl" secondAttribute="trailing" constant="40" id="br3-Nh-lHT"/>
+                            <constraint firstItem="lvG-cU-PvB" firstAttribute="leading" secondItem="e0R-Jf-Pey" secondAttribute="leading" constant="30" id="uvd-o0-eeT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="e0R-Jf-Pey" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9gK-LS-1sC"/>
+                <constraint firstAttribute="trailing" secondItem="e0R-Jf-Pey" secondAttribute="trailing" id="D9X-I4-J86"/>
+                <constraint firstItem="e0R-Jf-Pey" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ao7-UZ-hRf"/>
+                <constraint firstAttribute="bottom" secondItem="e0R-Jf-Pey" secondAttribute="bottom" id="tfL-hF-poX"/>
+            </constraints>
+            <size key="customSize" width="351" height="686"/>
+            <connections>
+                <outlet property="firstButton" destination="zlt-hU-f0S" id="gon-rF-3V2"/>
+                <outlet property="secondButton" destination="QZH-nn-epO" id="OoZ-WX-gl1"/>
+                <outlet property="thirdButton" destination="Hkh-ca-rzR" id="xre-RP-hhz"/>
+                <outlet property="titleLabel" destination="I5b-aq-UVl" id="3Yk-R3-jDc"/>
+            </connections>
+            <point key="canvasLocation" x="148.55072463768118" y="192.1875"/>
+        </collectionViewCell>
+    </objects>
+</document>
